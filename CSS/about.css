@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Poppins:wght@300&family=Roboto+Slab&family=Roboto:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F4591;
+    padding: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.nav {
+    color: white;
+}
+
+.nav1 {
+    background-color: white;
+    color: #1F4591;
+    border-radius: 5px;
+}
+
+.nav-links .nav:hover {
+    background-color: white;
+    color: #1F4591;
+    border-radius: 5px;
+}
+
+.logo-left, .logo-right {
+    display: flex;
+    align-items: center;
+}
+
+.logo-left img, .logo-right img {
+    max-width: 70px;
+    margin-right: 10px;
+}
+
+.faci p {
+    padding: 15px 20px;
+    color: white;
+    background-color: #1F4591;
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #1F4591;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    background-color: #1F4591;
+    box-shadow: 0 0 10px #1F4591;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.about-image img {
+    width: 350px;
+    height: 350px;
+}
+
+.about-content {
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.contents {
+    display: flex;
+}
+
+.contacts {
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #1F4591;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #1F4591;
+    height: 300px;
+}
+
+.contacts .title{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.contacts i {
+    height: 12px;
+    font-family: 'Comfortaa', sans-serif;
+}

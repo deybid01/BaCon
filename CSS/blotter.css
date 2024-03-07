@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Poppins:wght@300&family=Roboto+Slab&family=Roboto:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F4591;
+    padding: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.nav {
+    color: white;
+}
+
+.nav1 {
+    background-color: white;
+    color: #1F4591;
+    border-radius: 5px;
+}
+
+.nav-links .nav:hover {
+    background-color: white;
+    color: #1F4591;
+    border-radius: 5px;
+}
+
+.logo-left, .logo-right {
+    display: flex;
+    align-items: center;
+}
+
+.logo-left img, .logo-right img {
+    max-width: 70px;
+    margin-right: 10px;
+}
+
+.faci p {
+    padding: 15px 20px;
+    color: white;
+    background-color: #1F4591;
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #1F4591;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px;
+    background-color: #1F4591;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 0 10px #1F4591;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    text-align: left;
+}
+
+.form-group select,
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group input[type="time"],
+.form-group input[type="file"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group input[type="file"] {
+    border: none;
+}
+
+.form-group input[type="file"]::file-selector-button {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.form-group input[type="file"]::file-selector-button:hover {
+    background: white;
+    color: #1F4591;
+}
+
+#detail {
+    height: 100px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cancel-button {
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    justify-self: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.cancel-button:hover {
+    background: rgb(207, 0, 0);
+    color: white;
+}
+
+.submit-button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    justify-self: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.submit-button:hover {
+    background: green;
+    color: white;
+}
+
+#more {
+    display: none;
+}
