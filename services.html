@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+        <title>BACON SERVICES</title>
+        <link rel="stylesheet" href="CSS/services.css">
+        <script src="https://kit.fontawesome.com/7783766cef.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="logo-left">
+                <img src="SRC/logo.png" alt="Logo 1">
+            </div>
+            <ul class="nav-links">
+                <li><a class="nav" href="home.html">Home</a></li>
+                <li><a class="nav1" href="services.html">Services</a></li>
+                <li><a class="nav" href="about.html">About Us</a></li>
+                <li><a class="nav" href="portal.html">Online Portal</a></li>
+            </ul>
+            <div class="logo-right">
+                <img src="SRC/logo.png" alt="Logo 2">
+            </div>
+        </nav>
+
+        <div class="faci">
+            <p>Barangay Services</p>
+        </div>
+
+        <div class="categories">
+            <div class="category" onclick="toggleCategory(1)">Healthcare</div>
+            <div class="category" onclick="toggleCategory(2)">Help Desk</div>
+            <div class="category" onclick="toggleCategory(3)">Barangay Forms</div>
+        </div>
+        <div class="category-content" id="category1">
+            <a href="healthcare/dental.html" style="text-decoration: none;">
+                <div class="category-content1">
+                    <img src="SRC/logo.png">
+                    <p>Dental Check-up</p>
+                </div>
+            </a>
+            
+            <a href="healthcare/general.html" style="text-decoration: none;">
+                <div class="category-content1">
+                    <img src="SRC/logo.png">
+                    <p>General Check-up</p>
+                </div>
+            </a>
+        </div>
+        <div class="category-content" id="category2">
+            <a href="helpdesk/blotter.html" style="text-decoration: none;">
+                <div class="category-content1">
+                    <img src="SRC/logo.png">
+                    <p>Barangay Blotter</p>
+                </div>
+            </a>
+
+            <a href="helpdesk/counseling.html" style="text-decoration: none;">
+                <div class="category-content1">
+                    <img src="SRC/logo.png">
+                    <p>Barangay Counseling</p>
+                </div>
+            </a>
+
+            <a href="helpdesk/counseling.html" style="text-decoration: none;">
+                <div class="category-content1">
+                    <img src="SRC/logo.png">
+                    <p>Barangay Assistance</p>
+                </div>
+            </a>
+        </div>
+        <div class="category-content" id="category3">
+            <a href="forms/business.html" style="text-decoration: none;">
+                <div class="category-content1">
+                    <img src="SRC/logo.png">
+                    <p>Business Clearance</p>
+                </div>
+            </a>
+
+            <a href="forms/clearance.html" style="text-decoration: none;">
+                <div class="category-content1">
+                    <img src="SRC/logo.png">
+                    <p>Barangay Clearance</p>
+                </div>
+            </a>
+
+            <a href="forms/scholar.html" style="text-decoration: none;">
+                <div class="category-content1">
+                    <img src="SRC/logo.png">
+                    <p>Barangay Scholarship</p>
+                </div>
+            </a>
+        </div>
+        <script>
+        function toggleCategory(categoryNumber) {
+        const buttons = document.querySelectorAll('.category');
+        buttons.forEach(button => {
+        button.classList.remove('active');
+    });
+
+        const contents = document.querySelectorAll('.category-content');
+        contents.forEach(content => {
+        content.classList.remove('active');
+    })
+
+        const selectedCategoryContent = document.getElementById(`category${categoryNumber}`);
+        const selectedCategoryButton = document.querySelector(`.category:nth-child(${categoryNumber})`);
+        selectedCategoryContent.classList.add('active');
+        selectedCategoryButton.classList.add('active');
+}
+
+    
+        </script>
+    </body>
+</html>
