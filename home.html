@@ -1,203 +1,222 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-        <title>BACON HOME</title>
-        <link rel="stylesheet" href="CSS/home.css">
-        <script src="https://kit.fontawesome.com/7783766cef.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <nav class="navbar">
-            <div class="logo-left">
-                <img src="SRC/logo.png" alt="Logo 1">
-            </div>
-            <ul class="nav-links">
-                <li><a class="nav1" href="home.html">Home</a></li>
-                <li><a class="nav" href="services.html">Services</a></li>
-                <li><a class="nav" href="about.html">About Us</a></li>
-                <li><a class="nav" href="portal.html">Online Portal</a></li>
-            </ul>
-            <div class="logo-right">
-                <img src="SRC/logo.png" alt="Logo 2">
-            </div>
-        </nav>
-        <div class="slides">
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>BACON HOME</title>
+    <link rel="stylesheet" href="CSS/home.css">
+    <script src="https://kit.fontawesome.com/7783766cef.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo-left">
+            <img src="SRC/logo.png" alt="Logo 1">
+        </div>
+        <ul class="nav-links">
+            <li><a class="nav1" href="home.php">Home</a></li>
+            <li><a class="nav" href="services.php">Services</a></li>
+            <li><a class="nav" href="about.php">About Us</a></li>
+            <li><a class="nav" href="portal.php">Online Portal</a></li>
+        </ul>
+        <div class="logo-right">
+            <img src="SRC/logo.png" alt="Logo 2">
+        </div>
+    </nav>
+    <div class="slides">
         <div class="slideshow-container">
             <div class="mySlides fade">
-                <img class="caro" src="SRC/pic1.png">
-                <div class="text">Caption One</div>
-                </div>
-            
+                <img class="caro" src="SRC/banner1.jpg">
+                <div class="text">Emergency Hotline Numbers</div>
+            </div>
+
             <div class="mySlides fade">
-                <img class="caro" src="SRC/pic2.png">
-                <div class="text">Caption Two</div>
-                </div>
-            
+                <img class="caro" src="SRC/banner2.jpg">
+                <div class="text">QC Green Awards</div>
+            </div>
+
             <div class="mySlides fade">
-                <img class="caro" src="SRC/pic3.png">
-                <div class="text">Caption Three</div>
-                </div>
-            </div>
-            <br>
-
-            <div style="text-align:center">
-                <span class="dot"></span> 
-                <span class="dot"></span> 
-                <span class="dot"></span> 
+                <img class="caro" src="SRC/banner3.jpg">
+                <div class="text">GENERATION RESTORATION</div>
             </div>
         </div>
+        <br>
 
-        <div class="faci">
-            <p>Barangay Facilities</span></p>
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+
+    <div class="faci">
+        <p>Barangay Facilities</span></p>
+    </div>
+
+    <div class="faci-pics">
+        <div class="container">
+            <img src="SRC/faci1.jpg">
+            <p>Health Center</span></p>
+        </div>
+        <div class="container">
+            <img src="SRC/faci2.jpg">
+            <p>Solar Powered Covered Court</span></p>
+        </div>
+        <div class="container">
+            <img src="SRC/faci3.jpg">
+            <p>Material Recovery Facility</span></p>
+        </div>
+    </div>
+
+    <div class="faci-pics">
+        <div class="container">
+            <img src="SRC/faci5.jpg">
+            <p>Quarantine/Isolation Area</span></p>
+        </div>
+        <div class="container">
+            <img src="SRC/faci6.jpg">
+            <p>Composting Area</span></p>
+        </div>
+        <div class="container">
+            <img src="SRC/faci4.jpg">
+            <p>Handwashing Area</span></p>
+        </div>
+    </div>
+
+    <div class="faci">
+        <p>Barangay News</span></p>
+    </div>
+
+    <div class="news-pics">
+
+        <div class="post">
+            <img src="SRC/news1.jpg">
+            <h3>Q CITY BUS SERVICE ADVISORY – DECEMBER 8, 2023</h3>
+            <p class="content">MAHALAGANG ABISO QCitizens!
+
+                Walang biyahe ang Q City Bus Service sa Biyernes, December 8, 2023 (Feast of the Immaculate Conception
+                of Mary) na idineklarang special non-working day ng Palasyo.</p>
+            <button onclick="readMore(this)">Read More</button>
         </div>
 
-        <div class="faci-pics">
-            <div class="container">
-                <img src="SRC/logo.png">
-                <p>Utilitity Name</span></p>
-            </div>
-            <div class="container">
-                <img src="SRC/logo.png">
-                <p>Utilitity Name</span></p>
-            </div>
-            <div class="container">
-                <img src="SRC/logo.png">
-                <p>Utilitity Name</span></p>
-            </div>
-            <div class="container">
-                <img src="SRC/logo.png">
-                <p>Utilitity Name</span></p>
-            </div>
+        <div class="post">
+            <img src="SRC/news2.jpg">
+            <h3>REAL PROPERTY TAX DISCOUNTS ON EARLY FULL PAYMENTS</h3>
+            <p class="content">QCitizens, magbayad nang maaga para maka-DISKWENTO sa inyong REAL PROPERTY TAX (amilyar)!
+
+                ADVANCE PAYMENT: Mananatili pa rin ang 20% discount kung ang 2024 RPT ay mababayaran nang buo hanggang
+                December 31, 2023.
+
+                PROMPT PAYMENT: 10% discount naman kung ang full payment ng 2024 RPT ay gagawin mula January 1 hanggang
+                March 31, 2024.
+
+                STAGERRED OR INSTALLMENT: Ang pagbabayad ng hulugan o quarterly installment ay wala pong discount.
+
+                Alinsunod ito sa City Ordinance No. SP-3179 S-2023 at local government code.
+
+                Ang nalilikom na pondo mula sa real property tax ay ginagamit sa pagpapalawig ng mga proyekto at
+                programang pangkalusugan, pang-edukasyon, at iba pang social services programs ng lokal na pamahalaan
+                para sa QCitizens.
+            </p>
+            <button onclick="readMore(this)">Read More</button>
         </div>
 
-        <div class="faci-pics">
-            <div class="container">
-                <img src="SRC/logo.png">
-                <p>Utilitity Name</span></p>
-            </div>
-            <div class="container">
-                <img src="SRC/logo.png">
-                <p>Utilitity Name</span></p>
-            </div>
-            <div class="container">
-                <img src="SRC/logo.png">
-                <p>Utilitity Name</span></p>
-            </div>
-            <div class="container">
-                <img src="SRC/logo.png">
-                <p>Utilitity Name</span></p>
-            </div>
-        </div>  
+        <div class="post">
+            <img src="SRC/news3.jpg">
+            <h3>PET EDUCATION SEMINAR FOR STUDENTS</h3>
+            <p class="content">Upang mabigyan ng dagdag-kaalaman ang mga kabataang QCitizen tungkol sa responsible pet
+                ownership, nagsagawa ang Quezon City Veterinary Department ng pet education seminar sa mga mag-aaral.
 
-        <div class="faci">
-            <p>Barangay News</span></p>
+                Nasa 112 senior high school students mula St. Theresa’s College ang dumalo sa seminar upang mapalawig
+                ang kanilang kaalaman tungkol sa rabies, responsible pet ownership, at animal adoption sa QC Animal Care
+                and Adoption Center.
+
+                Noong nakaraang linggo, nagtungo naman ang mga architecture student mula United Architects of the
+                Philippines – Students Auxiliary sa Adoption Center.</p>
+            <button onclick="readMore(this)">Read More</button>
         </div>
 
-        <div class="news-pics">
-            <div class="post">
-                <img src="SRC/logo.png">
-                <h1>News Title 1</h1>
-                <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis tempore iste totam. Cupiditate quibusdam quidem ullam maxime recusandae labore voluptatum nesciunt fugiat. Nisi consectetur explicabo aspernatur non, commodi dignissimos velit at minima quibusdam reiciendis? Excepturi sed consequatur unde, autem, similique ipsum nobis quae maxime officiis reiciendis suscipit iure fugiat rem.</p>
-                <button onclick="readMore(this)">Read More</button>
-            </div>
-            <div class="post">
-                <img src="SRC/logo.png">
-                <h1>News Title 2</h1>
-                <p class="content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, impedit vero rerum ad illum hic corrupti totam possimus consectetur dignissimos voluptas accusantium dicta ab laboriosam similique consequuntur voluptate, deserunt quam velit nostrum necessitatibus quod expedita. Error numquam deleniti placeat commodi, laborum odit velit ipsam modi ut ea, quaerat dolorem sit.</p>
-                <button onclick="readMore(this)">Read More</button>
-            </div>
-            <div class="post">
-                <img src="SRC/logo.png">
-                <h1>News Title 3</h1>
-                <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio tempora rem ad cupiditate! Commodi doloremque atque asperiores optio molestiae, similique nostrum voluptatum non aspernatur voluptate vero omnis iusto alias nam obcaecati quaerat accusamus molestias harum vel odio consequuntur accusantium laboriosam sit nobis. Deleniti velit omnis commodi odio non nemo mollitia.</p>
-                <button onclick="readMore(this)">Read More</button>
-            </div>
-            <div class="post">
-                <img src="SRC/logo.png">
-                <h1>News Title 4</h1>
-                <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis tempore iste totam. Cupiditate quibusdam quidem ullam maxime recusandae labore voluptatum nesciunt fugiat. Nisi consectetur explicabo aspernatur non, commodi dignissimos velit at minima quibusdam reiciendis? Excepturi sed consequatur unde, autem, similique ipsum nobis quae maxime officiis reiciendis suscipit iure fugiat rem.</p>
-                <button onclick="readMore(this)">Read More</button>
-            </div>
-            <div class="post">
-                <img src="SRC/logo.png">
-                <h1>News Title 5</h1>
-                <p class="content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, impedit vero rerum ad illum hic corrupti totam possimus consectetur dignissimos voluptas accusantium dicta ab laboriosam similique consequuntur voluptate, deserunt quam velit nostrum necessitatibus quod expedita. Error numquam deleniti placeat commodi, laborum odit velit ipsam modi ut ea, quaerat dolorem sit.</p>
-                <button onclick="readMore(this)">Read More</button>
-            </div>
-            <div class="post">
-                <img src="SRC/logo.png">
-                <h1>News Title 6</h1>
-                <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio tempora rem ad cupiditate! Commodi doloremque atque asperiores optio molestiae, similique nostrum voluptatum non aspernatur voluptate vero omnis iusto alias nam obcaecati quaerat accusamus molestias harum vel odio consequuntur accusantium laboriosam sit nobis. Deleniti velit omnis commodi odio non nemo mollitia.</p>
-                <button onclick="readMore(this)">Read More</button>
-            </div>
-            <div class="post">
-                <img src="SRC/logo.png">
-                <h1>News Title 7</h1>
-                <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis tempore iste totam. Cupiditate quibusdam quidem ullam maxime recusandae labore voluptatum nesciunt fugiat. Nisi consectetur explicabo aspernatur non, commodi dignissimos velit at minima quibusdam reiciendis? Excepturi sed consequatur unde, autem, similique ipsum nobis quae maxime officiis reiciendis suscipit iure fugiat rem.</p>
-                <button onclick="readMore(this)">Read More</button>
-            </div>
-            <div class="post">
-                <img src="SRC/logo.png">
-                <h1>News Title 8</h1>
-                <p class="content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, impedit vero rerum ad illum hic corrupti totam possimus consectetur dignissimos voluptas accusantium dicta ab laboriosam similique consequuntur voluptate, deserunt quam velit nostrum necessitatibus quod expedita. Error numquam deleniti placeat commodi, laborum odit velit ipsam modi ut ea, quaerat dolorem sit.</p>
-                <button onclick="readMore(this)">Read More</button>
-            </div>
-            <div class="post">
-                <img src="SRC/logo.png">
-                <h1>News Title 9</h1>
-                <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio tempora rem ad cupiditate! Commodi doloremque atque asperiores optio molestiae, similique nostrum voluptatum non aspernatur voluptate vero omnis iusto alias nam obcaecati quaerat accusamus molestias harum vel odio consequuntur accusantium laboriosam sit nobis. Deleniti velit omnis commodi odio non nemo mollitia.</p>
-                <button onclick="readMore(this)">Read More</button>
-            </div>
-            <div class="post">
-                <img src="SRC/logo.png">
-                <h1>News Title 10</h1>
-                <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis tempore iste totam. Cupiditate quibusdam quidem ullam maxime recusandae labore voluptatum nesciunt fugiat. Nisi consectetur explicabo aspernatur non, commodi dignissimos velit at minima quibusdam reiciendis? Excepturi sed consequatur unde, autem, similique ipsum nobis quae maxime officiis reiciendis suscipit iure fugiat rem.</p>
-                <button onclick="readMore(this)">Read More</button>
-            </div>
+        <div class="post">
+            <img src="SRC/news4.jpg">
+            <h3>GAWAD KALASAG AWARD: BEYOND COMPLIANT</h3>
+            <p class="content">Another win for Quezon City!
+
+                Idineklarang “Beyond Compliant” ang QC ng
+
+                2023 Gawad Kalasag Seal for Local Disaster Risk Reduction and Management Councils and Offices (LDRRMCOs)
+                Category.
+
+                Ito ay dahil mas nahigitan pa ng lokal na pamahalaan ang pamantayan sa pangangasiwa ng disaster
+                mitigation programs. Ito rin ang ikatlong taon na iginawad ang pagkilala sa ating lungsod.
+
+                Ang Gawad KALASAG (KAlamidad at Sakuna LAbanan, SAriling Galing ang Kaligtasan) ay may layon na
+                kilalanin ang mga local government units, non-government organizations, at private entities para sa
+                kanilang disaster risk reduction and management at climate change adaption efforts.
+
+                Congratulations po sa lahat ng naging bahagi ng pagkilalang ito!
+            </p>
+            <button onclick="readMore(this)">Read More</button>
+        </div>
+        <div class="post">
+            <img src="SRC/news5.jpg">
+            <h3>GSIS SILVER AWARD SEAL OF PROTECTION</h3>
+            <p class="content">Congratulations, QC!
+
+                Ginawaran ng Government Service Insurance System (GSIS) ang pamahalaang lungsod ng Silver Award Seal of
+                Protection sa ginanap na selebrasyon ng “Pagpupugay sa mga Kaagapay ng GSIS” bilang pagkilala sa mga top
+                performing Agency Authorized Officers, Liaison Officers, Electronic Remittance File Officer Handlers, at
+                Property Officers ng GSIS.
+
+                Tinanggap ni City General Services Department head Fe Bass ang parangal bilang kinatawan ni Mayor Joy
+                Belmonte.
+
+                Maraming salamat po sa pamunuan ng GSIS sa pangunguna ni General Manager Wick Veloso.</p>
+            <button onclick="readMore(this)">Read More</button>
         </div>
 
+    </div>
 
-        <script>
-            let slideIndex = 0;
-            showSlides();
 
-            function showSlides() {
-                let i;
-                let slides = document.getElementsByClassName("mySlides");
-                let dots = document.getElementsByClassName("dot");
-                for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";  
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
             }
             slideIndex++;
-                if (slideIndex > slides.length) {slideIndex = 1}    
-                for (i = 0; i < dots.length; i++) {
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
                 dots[i].className = dots[i].className.replace(" active", "");
             }
-            slides[slideIndex-1].style.display = "block";  
-            dots[slideIndex-1].className += " active";
-            setTimeout(showSlides, 5000); 
-            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 5000);
+        }
 
         let noOfCharac = 150;
         let contents = document.querySelectorAll(".content");
         contents.forEach(content => {
             //If text length is less that noOfCharac... then hide the read more button
-            if(content.textContent.length < noOfCharac){
+            if (content.textContent.length < noOfCharac) {
                 content.nextElementSibling.style.display = "none";
-            }
-            else{
-                let displayText = content.textContent.slice(0,noOfCharac);
+            } else {
+                let displayText = content.textContent.slice(0, noOfCharac);
                 let moreText = content.textContent.slice(noOfCharac);
                 content.innerHTML = `${displayText}<span class="dots">...</span><span class="hide more">${moreText}</span>`;
             }
         });
 
-        function readMore(btn){
+        function readMore(btn) {
             let post = btn.parentElement;
             post.querySelector(".dots").classList.toggle("hide");
             post.querySelector(".more").classList.toggle("hide");
             btn.textContent == "Read More" ? btn.textContent = "Read Less" : btn.textContent = "Read More";
         }
-        </script>
+    </script>
     </body>
 </html>
