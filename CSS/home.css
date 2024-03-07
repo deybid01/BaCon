@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Poppins:wght@300&family=Roboto+Slab&family=Roboto:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F4591;
+    padding: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.nav {
+    color: white;
+}
+
+.nav1 {
+    background-color: white;
+    color: #1F4591;
+    border-radius: 5px;
+}
+
+.nav-links .nav:hover {
+    background-color: white;
+    color: #1F4591;
+    border-radius: 5px;
+}
+
+.logo-left, .logo-right {
+    display: flex;
+    align-items: center;
+}
+
+.logo-left img, .logo-right img {
+    max-width: 70px;
+    margin-right: 10px;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.mySlides {
+    display: none;
+}
+.caro {
+    width: 100%;
+    height: 600px;
+}  
+
+.text {
+    color: #1F4591;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    background-color: #c8c8c881;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+.active {
+    background-color: #1F4591;
+}
+  
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+  
+
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+}
+
+.faci p {
+    padding: 15px 20px;
+    color: white;
+    background-color: #1F4591;
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #1F4591;
+}
+
+
+.faci-pics {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.faci-pics .container {
+    background-color: #1F4591;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin: 20px 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    transition: transform .2s;
+    box-shadow: 0 0 10px #1F4591;
+}
+
+.faci-pics .container:hover {
+    transform: scale(1.05);
+}
+
+.faci-pics .container img{
+    width: 200px;
+}
+
+.news-pics {
+    display: flex;
+    max-width: 100%;
+    overflow-x: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.news-pics .post {
+    background-color: #1F4591;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin: 20px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-family: 'Roboto Slab', serif;
+    box-shadow: 0 0 10px #1F4591;
+    transition: transform .2s;
+}
+
+.news-pics .post:hover {
+    transform: scale(1.05);
+}
+
+.news-pics .post img{
+    width: 200px;
+}
+
+.news-pics::-webkit-scrollbar {
+    width: 1px;
+    height: 10px;
+}
+
+.news-pics::-webkit-scrollbar-thumb {
+    background-color: #1F4591;
+    border-radius: 15px;
+}
+
+.news-pics .post button {
+    background-color: white;
+    color: #1F4591;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: transform .2s;
+}
+
+
+.news-pics .post button:hover {
+    transform: scale(1.05);
+    background-color: #3377ff;
+    color: white;
+}
+
+.hide{
+    display: none;
+}
